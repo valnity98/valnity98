@@ -72,7 +72,7 @@ Custom PCB for a real-time PID demonstrator: STM32F4-Discovery as controller, DR
 
 ## Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/mutasem-bader-128442285)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mutasem-bader-128442285)
 [![GitHub](https://img.shields.io/badge/GitHub-valnity98-181717?style=flat&logo=github)](https://github.com/valnity98)
 [![Email](https://img.shields.io/badge/Email-m.bader98%40outlook.de-D14836?style=flat&logo=gmail&logoColor=white)](m.bader98@outlook.de)
 
