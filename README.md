@@ -16,7 +16,7 @@ Passionate about building complete systems: from bare-metal embedded firmware an
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
 
 **Peripherals:** DCMI · DMA · UART · I²C · SPI · CAN Bus  
-**Tools:** STM32CubeIDE · STM32CubeMX · X-CUBE-AI · MATLAB/Simulink · KiCad / EasyEDA
+**Tools:** STM32CubeIDE · STM32CubeMX · X-CUBE-AI · MATLAB/Simulink · Autodesk Fusion / Eagle
 
 ### Robotics & ROS 2
 ![ROS2](https://img.shields.io/badge/ROS_2-22314E?style=flat&logo=ros&logoColor=white)
