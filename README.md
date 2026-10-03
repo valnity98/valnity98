@@ -62,10 +62,10 @@ Ported the Pololu Zumo 32U4 encoder library to the Zumo Shield with an Arduino L
 
 ---
 
-### [Instrument Cluster — CAN Bus Simulation](https://github.com/valnity98/Instrument-Cluster) · team project
+### [Instrument Cluster — CAN Bus Control](https://github.com/valnity98/Instrument-Cluster) · team project
 > MATLAB/Simulink · CAN Bus · Vehicle Network Toolbox · DBC
 
-MATLAB/Simulink simulation of CAN messages for a BMW E9x instrument cluster. Custom DBC file, signal generation in Simulink, and validation on the real cluster via the Vehicle Network Toolbox (over 90 % of the signals displayed correctly).
+Controlling a real BMW E9x instrument cluster over CAN with MATLAB/Simulink. Custom DBC file, signal generation in Simulink, and validation on the real cluster via the Vehicle Network Toolbox (over 90 % of the signals displayed correctly).
 
 ---
 
