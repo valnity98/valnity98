@@ -1,6 +1,6 @@
 # Mutasem Bader — Embedded Software & Edge-AI Engineer
 
-**M.Sc. Mechatronics & Robotics** · Frankfurt University of Applied Sciences
+**M.Sc. Mechatronics & Robotics** (expected 12/2026) · Frankfurt University of Applied Sciences
 
 I build embedded systems end to end, from the PCB to the firmware to the data coming out of it. Most of my work is C on nRF52 and STM32 (Zephyr, FreeRTOS), Python for ROS 2 and ML tooling, and TinyML with X-CUBE-AI.
 
@@ -29,7 +29,7 @@ I build embedded systems end to end, from the PCB to the firmware to the data co
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 
-**Topics:** Mobile robot control · Encoder odometry · PID control · Camera-based line following · TF2 · OccupancyGrid mapping
+**Topics:** Mobile robot control · Encoder odometry · PID control · Camera-based line following (team project) · TF2 · OccupancyGrid mapping
 
 ### Machine Learning / Edge AI
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
@@ -44,7 +44,7 @@ I build embedded systems end to end, from the PCB to the firmware to the data co
 ### [Machine Vision on Microcontrollers](https://github.com/valnity98/Machine-Vision-on-Microcontrollers)
 > STM32H7 · FreeRTOS · OV2640 · X-CUBE-AI · PySide6
 
-Object counting on an STM32H743ZI, compared two ways, both running on the chip: classical image processing (Otsu threshold, morphology, connected components) and a quantised TinyML model (MobileNetV1-0.25, 96×96 RGB, 279 KB Flash / 57 KB RAM). On 90 real-world test frames with changing light, TinyML reached **73.3 %** accuracy and the classical pipeline **14.4 %**; inference takes 59.8 ms vs. 66.6 ms. Course project (grade 1.0); the PySide6 PC dashboard was written with AI assistance.
+Object counting on an STM32H743ZI, compared two ways, both running on the chip: classical image processing (Otsu threshold, morphology, connected components) and a quantised TinyML model (MobileNetV1-0.25, 96×96 RGB, 279 KB Flash / 57 KB RAM). On 90 real-world test frames with changing light, TinyML reached **73.3 %** accuracy and the classical pipeline **14.4 %** (measured with a firmware version that has a known Otsu overflow bug, so this value is not a limit of the method and has not been re-measured); inference takes 59.8 ms vs. 66.6 ms. Course project (grade 1.0); the PySide6 PC dashboard was written with AI assistance.
 
 ---
 
@@ -56,9 +56,9 @@ Autonomous line-following and path-mapping for a Zumo robot. Camera-based line d
 ---
 
 ### [Zumo328P Arduino Library](https://github.com/valnity98/Zumo328P-Library)
-> C++ · Arduino Leonardo (ATmega32U4) · Interrupt-driven encoder · PID
+> C++ · Arduino Leonardo (ATmega32U4) · Interrupt-driven encoder · PD controller
 
-Ported the Pololu Zumo 32U4 encoder library to the Zumo Shield with an Arduino Leonardo (ATmega32U4). Software-based XOR replacement for quadrature decoding with `attachInterrupt()`, signed 32-bit atomic tick counters, and a discrete-time PD steering controller.
+Ported the Pololu Zumo 32U4 encoder library (MIT licence) to the Zumo Shield with an Arduino Leonardo (ATmega32U4). Interrupt-driven quadrature decoding with `attachInterrupt()` (channel A edges, direction from channel B), signed 32-bit atomic tick counters, and a discrete-time PD steering controller.
 
 ---
 
@@ -72,7 +72,7 @@ Controlling a real BMW E9x instrument cluster over CAN with MATLAB/Simulink. Cus
 ### [PID Demonstrator — STM32 PCB](https://github.com/valnity98/PID-Demonstrator) · team project
 > STM32F4 · PCB Design · DRV8848 · INA138 · MATLAB PID Tuner
 
-Custom PCB for a real-time PID demonstrator: STM32F4-Discovery as controller, DRV8848 H-bridge, INA138 current sensing, voltage regulation (12 V → 3.3 V), and hardware-adjustable Kp/Ki/Kd via potentiometers. My part: hardware design and system integration; I supported the PID tuning with MATLAB PID Tuner.
+Custom PCB for a real-time PID demonstrator: STM32F4-Discovery as controller, DRV8848 H-bridge, INA138 current sensing, USB-C Power Delivery input (12 V) with on-board step-down, and hardware-adjustable Kp/Ki/Kd via potentiometers. PCB v1 was built and tested; a revised v2 was designed but not manufactured. My part: hardware design and system integration; I supported the PID tuning with MATLAB PID Tuner.
 
 ---
 
