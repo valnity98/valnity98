@@ -44,14 +44,14 @@ I build embedded systems end to end, from the PCB to the firmware to the data co
 ### [Machine Vision on Microcontrollers](https://github.com/valnity98/Machine-Vision-on-Microcontrollers)
 > STM32H7 · FreeRTOS · OV2640 · X-CUBE-AI · PySide6
 
-Object counting on an STM32H743ZI, compared two ways, both running on the chip: classical image processing (Otsu threshold, morphology, connected components) and a quantised TinyML model (MobileNetV1-0.25, 96×96 RGB, 279 KB Flash / 57 KB RAM). On 90 real-world test frames with changing light, TinyML reached **73.3 %** accuracy and the classical pipeline **14.4 %** (measured with a firmware version that has a known Otsu overflow bug, so this value is not a limit of the method and has not been re-measured); inference takes 59.8 ms vs. 66.6 ms. Course project (grade 1.0); the PySide6 PC dashboard was written with AI assistance.
+Object counting on an STM32H743ZI, compared two ways, both running on the chip: classical image processing (Otsu threshold, morphology, connected components) and a quantised TinyML model (MobileNetV1-0.25, 96×96 RGB, 279 KB Flash / 57 KB RAM). On 90 real-world test frames with changing light, TinyML reached **73.3 %** accuracy and the classical pipeline **14.4 %** (measured with a firmware version that has a known Otsu overflow bug, so this value is not a limit of the method and has not been re-measured); inference takes 59.8 ms vs. 66.6 ms. Course project (grade 1.0); AI assistance was used for the PySide6 PC dashboard, the ML training scripts and the code comments.
 
 ---
 
 ### [ZumoRobot-ROS 2](https://github.com/valnity98/ZumoRobot-ROS2) · team project
 > ROS 2 · Python · OpenCV · PID control · Dead-reckoning
 
-Autonomous line-following and path-mapping for a Zumo robot. Camera-based line detection (team project; Kalman-filtered centroid in the debug overlay), PID motor control over serial, encoder-based dead-reckoning odometry, TF2 broadcasting, OccupancyGrid mapping, and a PyQt5 live dashboard.
+Autonomous line-following and path-mapping for a Zumo robot. Camera-based line detection (team project; Kalman-filtered centroid in the debug overlay), PID motor control over serial, encoder-based dead-reckoning odometry, TF2 broadcasting, OccupancyGrid mapping, and a PyQt5 live dashboard (created with AI assistance).
 
 ---
 
