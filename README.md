@@ -1,4 +1,4 @@
-# Mutasem Bader — Embedded Software & Edge-AI Engineer
+# Mutasem Bader — Embedded Software & Edge-AI
 
 **M.Sc. Mechatronics & Robotics** (expected 12/2026) · Frankfurt University of Applied Sciences
 
