@@ -1,0 +1,3 @@
+# local backups of the repository (kept on this machine only)
+*.bundle
+_backup*/
